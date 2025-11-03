@@ -1,7 +1,6 @@
 import streamlit as st
 from pathlib import Path
 import base64
-from textblob import TextBlob
 import time
 
 # ---------------- PAGE CONFIG ----------------
@@ -285,5 +284,6 @@ elif st.session_state.page == "chat":
     """
 
     st.components.v1.html(html_code, height=700)
+
 
 
